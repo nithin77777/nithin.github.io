@@ -1,0 +1,113 @@
+/* :root{
+    
+} */
+
+.navbar {
+    background: #dd3838;
+    border: 1px solid #979797;
+    border-radius: 22px;
+    position: fixed;
+    width: 1286px;
+    height: 74px;
+    top: 46px;
+    left: 190px;
+}
+
+.navInner.Home {
+    width: 200px;
+    height: 62px;
+    background: #faf2d3;
+    border: 1px solid #979797;
+    border-radius: 36px;
+    top: 4px;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navInner.About {
+    text-decoration: none;
+    color: #000000;
+    width: 200px;
+    height: 62px;
+    background: #faf2d3;
+    border: 1px solid #979797;
+    border-radius: 36px;
+    top: 4px;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navInner.Resume {
+    width: 200px;
+    height: 62px;
+    background: #faf2d3;
+    border: 1px solid #979797;
+    border-radius: 36px;
+    top: 4px;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navInner.Home {
+    position: absolute;
+    left: 70px;
+}
+.navInner.Resume {
+    position: absolute;
+    left: 519px;
+}
+.navInner.About {
+    position: absolute;
+    left: 294px;
+}
+.text {
+    position: absolute;
+    left: 78px;
+    top: 7px;
+}
+.navInner:hover {
+    background-color: blueviolet;
+    color: white;
+}
+.main-txt {
+    position: absolute;
+    top: 69px;
+    left: 74px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 40px;
+    color: #000000;
+    text-align: left;
+    text-shadow: 0 2px 4px rgba(178, 39, 39, 0.5);
+}
+body {
+    background: #d8d8d8;
+    /* Sketch doesnt export gradient borders at this point */
+    box-shadow: 9px 2px 4px 0 rgba(120, 51, 51, 0.5),
+        inset 0 1px 3px 0 rgba(177, 36, 36, 0.5);
+}
+.picture {
+    position: absolute;
+    top: 328px;
+    left: 846px;
+}
+.content {
+    position: absolute;
+    width: 565px;
+    height: 327px;
+    top: 200px;
+    left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+    color: #7a7272;
+    text-align: left;
+}
+.header {
+    max-width: 1285px;
+}
+
+/*
+
+*/

@@ -1,0 +1,45 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    background: #d8d8d8;
+    /* Sketch doesnt export gradient borders at this point */
+}
+header {
+    margin-left: 1cm;
+    border: 8px;
+    font-size: 36px;
+    color: #080808;
+    text-align: center;
+    width: 910px;
+}
+
+.details {
+    margin: 1cm;
+    border: 8px;
+    width: 910px;
+    text-align: right;
+    font-size: 25px;
+}
+.content {
+    margin: 1cm;
+    border: 8px;
+    width: 910px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.social {
+    width: 413px;
+    position: absolute;
+    left: 1053px;
+    top: 157px;
+}
+.social i {
+    font-size: 50px;
+}
+.social p {
+    font-size: 20px;
+    font-weight: 900;
+}
